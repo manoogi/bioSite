@@ -1,6 +1,102 @@
 @charset "utf-8";
 /* CSS Document */
 * {
- font-size: 100%;
- font-family: "Courier New";
+	font-size: 100%;
+	font-family: "Courier New";
+	
+}
+html, body {
+	margin: 0;
+}
+#navbar {
+	overflow: hidden;
+	background-color:#5AA670;
+	width: 100%;
+	align-content: center;
+}
+#navbar a {
+	color: #CDDEB4;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#navbar a:hover {
+	background-color: #99A983;
+	color: #647E3F;
+}
+#header {
+	width: 100%;
+	background-color:#78C698;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	margin: 0px;
+}
+body {
+	background-color: #F4E5C9;
+}
+h1 {
+	font-size: 50px;
+}
+div.left {
+	width: 65%; 
+	float: left;
+	padding: 10px
+}
+div.right {
+	width: 25%; 
+	float: right;
+	padding: 10px;
+	align-content: right;
+}
+
+
+div.about-images {
+	width: 100%;
+}
+
+div.about-images img {
+	padding-top: 2%;
+	padding-left: 8%;
+	padding-left: 8%;
+	padding-bottom: 0px;
+}
+
+div.about-txt {
+	padding-bottom: 30px;
+}
+
+div.hobbies-images {
+	width: 100%;
+}
+
+div.hobbies-images img {
+	padding-top: 2%;
+	padding-left: 8%;
+	padding-left: 8%;
+	padding-bottom: 0px;
+}
+
+div.hobbies-txt {
+	padding-bottom: 30px;
+}
+
+footer {
+	align-content: right;
+	background-color: #97E1C6;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding-right: 10px;
+	padding: 5px;
+	text-align: right;
+}
+footer a {
+	text-decoration: none;
+	color: #5AA670;
+	padding: 10px;
+}
+footer a:hover {
+	text-decoration: underline;
 }
